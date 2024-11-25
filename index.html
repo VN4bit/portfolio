@@ -60,5 +60,27 @@
     <footer>
         <p>© 2024 Viktor Neumann. All rights reserved.</p>
     </footer>
+	
+<script>
+    // Get the button and body element
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    const body = document.body;
+
+    // Check local storage for dark mode preference
+    if (localStorage.getItem("dark-mode") === "enabled") {
+	body.classList.add("dark-mode");
+    }
+
+    // Toggle dark mode on button click
+    darkModeToggle.addEventListener("click", () => {
+	body.classList.toggle("dark-mode");
+	// Save the dark mode preference to local storage
+	if (body.classList.contains("dark-mode")) {
+	    localStorage.setItem("dark-mode", "enabled");
+	} else {
+	    localStorage.setItem("dark-mode", "disabled");
+	}
+    });
+</script>
 </body>
 </html>
