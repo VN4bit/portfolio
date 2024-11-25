@@ -88,3 +88,53 @@ footer {
     text-align: center;
     font-size: 0.9rem;
 }
+
+/* Light Mode (Default) */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+}
+
+section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+a {
+    color: #007BFF;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+header.dark-mode {
+    background-color: #1f1f1f;
+}
+
+section.dark-mode {
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+}
+
+a.dark-mode {
+    color: #BB86FC;
+}
+
+footer.dark-mode {
+    background-color: #1f1f1f;
+}
