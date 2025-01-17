@@ -2400,11 +2400,11 @@ input, select, textarea {
 			text-decoration: none;
 			cursor: pointer;
 			display: inline-block;
-			font-size: 1rem;
-			letter-spacing: 0;
-			font-family: "Merriweather", Georgia, serif;
-			text-transform: none;
-			font-weight: 300;
+			font-size: 0.8rem;
+			letter-spacing: 0.075em;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			text-transform: uppercase;
+			font-weight: 900;
 			padding-left: 2.8rem;
 			padding-right: 1rem;
 			position: relative;
@@ -2504,7 +2504,7 @@ input, select, textarea {
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #212931;
+		color: #ffffff;
 	}
 
 		input[type="checkbox"] + label:before,
