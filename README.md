@@ -1,6 +1,7 @@
 # Viktor Neumann's Programming Portfolio
 
 Welcome to my programming portfolio! This website showcases various projects I've developed, highlighting my skills and expertise in software development.
+Additionally you can have a look at my bachelor thesis and resumé. 
 
 ## Projects
 
